@@ -1,8 +1,8 @@
 import React from 'react';
 import './style.css';
 
-const HeadingThree = ({ text }) => {
-  return <h3>{text}</h3>;
+const HeadingThree = ({ HeadingT }) => {
+  return <h3>{HeadingT}</h3>;
 };
 
 export default HeadingThree;

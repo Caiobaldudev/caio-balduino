@@ -1,23 +1,75 @@
 section {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   width: 100%;
-  padding: 0 3rem;
-  border-bottom: 1px solid #f3f4f5;
-  padding-top: 1.8rem;
+  padding: 0rem 3rem;
+  border-bottom: 1px solid #e1e0e0;
 }
 
-.contacts a {
-  width: 3rem;
-  height: 3rem;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  background-color: #343a40;
-  font-size: 5rem;
-  text-decoration: none;
-  border-radius: 100%;
-  margin-right: 0.5rem;
+.info {
+  font-weight: 600;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 100rem;
+  border-bottom: 1px solid #e1e0e0;
+  padding-bottom: 1.6rem;
+}
+
+.info p {
+  font-weight: 400;
+  font-size: 4rem;
+}
+
+.info h3 {
+  font-weight: 400;
+  font-size: 3rem;
+  text-transform: capitalize;
+}
+
+.info button {
+  border: none;
+  border-radius: 3rem;
+  width: 20%;
+  padding: 1rem;
+  background-color: #0b1a3d;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.info button:hover {
+  background-color: #172f69;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.contacts span {
+  font-weight: 400;
+  font-size: 2rem;
+  text-transform: none;
+  letter-spacing: 0.1rem;
+}
+
+.linkContact {
+  display: flex;
+  gap: 2rem;
+  margin: 2rem 0;
+  width: 25rem;
+}
+
+.linkContact button {
+  border: none;
+  border-radius: 3rem;
+  width: 100%;
+  padding: 1rem;
+  background-color: #0b1a3d;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.linkContact button:hover {
+  background-color: #172f69;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
 }

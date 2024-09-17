@@ -1,41 +1,37 @@
 header {
-  width: 100%;
-  padding: 1rem;
-  background-color: #11275b;
+  padding: 3.6rem;
+  background-color: #0b1a3d;
   position: sticky;
   top: 0;
-  max-height: 800px;
+  height: 100vh;
+  width: 45rem;
+  flex-shrink: 0;
 }
 
-header nav ul li a:hover {
+.navbar {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.navbar a:hover {
   opacity: 0.8;
 }
 
-header nav {
-  width: 200px;
-  max-width: 300px;
-  height: 100%;
-  display: flex;
-  justify-content: center;
+.navbar li {
+  margin: 1rem 0;
+  font-size: 1.5rem;
 }
 
-header nav ul {
-  flex-direction: column;
-  align-items: center;
-  display: flex;
-  justify-content: flex-end;
-  list-style: none;
-}
-header nav ul li {
-  margin: 0.6rem 0;
-}
+.navbar ul li a {
+  font-size: 3.6rem;
+  letter-spacing: .3rem;
 
-.profile {
-  position: absolute;
 }
 
 .profile img {
-  max-width: 150px;
+  max-width: 250px;
   border-radius: 100%;
   border: 6px solid rgba(161, 214, 255, 0.3);
 }

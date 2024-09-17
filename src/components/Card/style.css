@@ -1,0 +1,27 @@
+.info-card {
+  font-weight: 100;
+  text-transform: capitalize;
+  border-bottom: 1px solid #e1e0e0;
+  border-bottom-width: .5rem;
+  margin-bottom: 1rem;
+}
+
+.info-card p {
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.info-card span {
+  font-size: 1.6rem;
+}
+
+p {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.highlight {
+  color: #128c90;
+  font-size: 1.5rem;
+  font-weight: 600;
+}

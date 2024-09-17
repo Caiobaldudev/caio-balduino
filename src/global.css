@@ -1,16 +1,27 @@
-@import url("https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@400&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+:root {
+  font-size: 62.5%;
+}
+
 body {
-  min-width: 320px;
+  width: 100%;
+  height: 100vh;
   color: #6c757d;
-  font-family: "Saira Extra Condensed", sans-serif;
-  display: grid;
-  grid-template-columns: auto auto;
+  font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
 }
 
 p {
@@ -20,16 +31,24 @@ p {
 
 a {
   color: white;
-  font-size: 1.5rem;
-  font-weight: bold;
   text-decoration: none;
   letter-spacing: 1.5px;
 }
-ul {
-  list-style: square;
-}
+
+ul,
 li {
-  font-size: 2rem;
-  margin-left: 2rem;
-  margin-top: 8px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button,
+input {
+  display: block;
+  color: #333;
 }

@@ -15,10 +15,10 @@ const Header = () => (
           <a href="#xp">Experiência</a>
         </li>
         <li>
-          <a href="skills">Habilidades</a>
+          <a href="#skills">Habilidades</a>
         </li>
         <li>
-          <a href="projects">Projetos</a>
+          <a href="#projects">Projetos</a>
         </li>
       </ul>
     </nav>
