@@ -74,6 +74,11 @@ section {
   transition: 0.3s ease-in-out;
 }
 
+#skills .tags_list li{
+  font-size: 1.6rem;
+  white-space: nowrap;
+}
+
 .tags_list {
   display: flex;
   align-items: center;
@@ -83,7 +88,7 @@ section {
 }
 
 .tags_list li {
-  background-color: #0b1a3d;
+  background-color: #0d2763;
   display: flex;
   align-items: center;
   font-size: 1.6rem;
