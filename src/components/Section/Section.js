@@ -57,6 +57,23 @@ const Section = () => (
     </section>
     <section id="skills">
       <Title text="HABILIDADES" />
+      <ul class="tags_list">
+        <li>Figma</li>
+        <li>UI/UX</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Java</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>React Vite</li>
+        <li>Node.js</li>
+        <li>Bootstrap</li>
+        <li>Tailwind</li>
+        <li>Excel</li>
+        <li>Inglês intermediário</li>
+        <li>Jira</li>
+        <li>Srum & Kanban</li>
+      </ul>
     </section>
     <section id="projects">
       <Title text="PROJETOS" />

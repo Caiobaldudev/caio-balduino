@@ -73,3 +73,20 @@ section {
   cursor: pointer;
   transition: 0.3s ease-in-out;
 }
+
+.tags_list {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #fff;
+  padding-bottom: 2rem;
+}
+
+.tags_list li {
+  background-color: #0b1a3d;
+  display: flex;
+  align-items: center;
+  font-size: 1.6rem;
+  padding: 0.5rem 1.5rem;
+  border-radius: 1rem;
+}
