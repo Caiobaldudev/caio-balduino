@@ -1,12 +1,14 @@
 import React from 'react';
-import Title from '../../components/Title/Title';
 import Header from '../../components/Header/Header';
+import Section from '../../components/Section/Section';
 
 const Home = () => (
-  <div>
+  <>
     <Header />
-    <Title text="Experiência" />
-  </div>
+    <main>
+      <Section />
+    </main>
+  </>
 );
 
 export default Home;
