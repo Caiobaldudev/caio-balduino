@@ -66,7 +66,7 @@ const Section = () => (
     </section>
     <section id="skills">
       <Title text="HABILIDADES" />
-      <ul class="tags_list">
+      <ul className="tags_list">
         <li>Figma</li>
         <li>UI/UX</li>
         <li>HTML</li>

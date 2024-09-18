@@ -24,20 +24,30 @@ const Repo = () => {
 
   return (
     <>
-      {repo ? (
-        <div className='wrap'>
+      {repo.length > 0 ? (
+        <div className="wrap">
           <h1>Total: {repo.length}</h1>
           <div className="pageContent">
-            {repo.map((r) => (
-              <div className="pageCard" key={r.id}>
-                <div className="contentCard">
-                  
-                  <h1 className="repoTitle">{r.name}</h1>
-                  <p className="repoDesc">{r.description}</p>
-                  <button href={r.html_url}>Ver Repositório</button>
+          {repo.map((repositorio) => {
+              const maxDescriptionLength = 100; 
+              const truncatedDescription = repositorio.description?.length > maxDescriptionLength
+                ? repositorio.description.slice(0, maxDescriptionLength) + '...'
+                : repositorio.description;
+
+              return (
+                <div className="pageCard" key={repositorio.id}>
+                  <div className="contentCard">
+                    <h1 className="repoTitle">{repositorio.name}</h1>
+                    <p className="repoDesc">{truncatedDescription}</p>
+                    <button>
+                      <a target="_blank" href={repositorio.html_url} className="buttonLink">
+                        Ver Repositório
+                      </a>
+                    </button>
+                  </div>
                 </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
         </div>
       ) : (
