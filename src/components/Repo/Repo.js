@@ -41,16 +41,15 @@ const Repo = () => {
                   <div className="contentCard">
                     <h1 className="repoTitle">{repositorio.name}</h1>
                     <p className="repoDesc">{truncatedDescription}</p>
-                    <button>
-                      <a
-                        target="_blank"
-                        href={repositorio.html_url}
-                        rel="noopener noreferrer"
-                        className="buttonLink"
-                      >
-                        Ver Repositório
-                      </a>
-                    </button>
+
+                    <a
+                      target="_blank"
+                      href={repositorio.html_url}
+                      rel="noopener noreferrer"
+                      className="buttonLink"
+                    >
+                      Ver Repositório
+                    </a>
                   </div>
                 </div>
               );
