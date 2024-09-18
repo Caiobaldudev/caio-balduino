@@ -23,29 +23,44 @@ const Section = () => (
           Enquanto meu foco atual é no desenvolvimento Frontend, planejo
           expandir minhas habilidades para Full Stack com o tempo, especialmente
           se eu tiver o suporte e as oportunidades de desenvolvimento fornecidas
-          por uma empresa.<br/><br/> Tenho uma experiência sólida de um projeto voluntário
-          na Lab Yes!, onde construí redes valiosas, aprofundei meu entendimento
-          sobre metodologias ágeis e aprimorei minhas habilidades de trabalho em
+          por uma empresa.
+          <br />
+          <br /> Tenho uma experiência sólida de um projeto voluntário na Lab
+          Yes!, onde construí redes valiosas, aprofundei meu entendimento sobre
+          metodologias ágeis e aprimorei minhas habilidades de trabalho em
           equipe e comunicação. Também participei de reuniões e enfrentei
           desafios técnicos, incluindo o desenvolvimento de um design responsivo
           usando Figma, fortalecendo ainda mais minhas habilidades.
         </p>
-        <button>
-          <a href="https://github.com/Caiobaldudev">Github</a>
-        </button>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.github.com/Caiobaldudev"
+          className="buttonLink"
+        >
+          Github
+        </a>
       </div>
       <div className="contacts" id="contacts">
         <Title text="CONTATOS" />
         <span>caiobalduinodev@hotmail.com</span>
         <div className="linkContact">
-          <button>
-            <a href="https://wa.me/5516997956747?text=Olá%20Caio,%20Vi%20o%20seu%20portfólio%20e%20gostaria%20de%20conversar%20com%20você!">
-              Whatsapp
-            </a>
-          </button>
-          <button>
-            <a href="https://www.linkedin.com/in/caio-balduino/">LinkedIn</a>
-          </button>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://wa.me/5516997956747?text=Olá%20Caio,%20Vi%20o%20seu%20portfólio%20e%20gostaria%20de%20conversar%20com%20você!"
+            className="buttonLink" // Estilize isso como um botão
+          >
+            Whatsapp
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.linkedin.com/in/caio-balduino/"
+            className="buttonLink" // Estilize isso como um botão
+          >
+            LinkedIn
+          </a>
         </div>
       </div>
     </section>
