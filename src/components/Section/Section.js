@@ -2,16 +2,25 @@ import React from 'react';
 import './style.css';
 import Title from '../Title/Title';
 import Card from '../Card/Card';
+import Repo from '../Repo/Repo';
 
 const Section = () => (
   <>
-    <section id="#about">
+    <section id="about">
       <Title text="Bem vindo(a)!" />
       <div className="info">
         <p>Sou Caio Balduino, Analista e Desenvolvedor de Sistemas</p>
         <h3>Atualmente : Desenvolvedor Frontend</h3>
         Igarapava - SP
         <br />
+        <p>
+          Com ampla experiência em desenvolvimento web front-end e metodologias
+          ágeis como Scrum e Kanban, domino tecnologias essenciais como HTML5,
+          CSS3, JavaScript, React.js, SQL e NodeJs. Meu envolvimento como
+          estagiário voluntário na Lab Yes! solidificou minhas habilidades em
+          programação web e uso de bibliotecas como Styled Components e Tailwind
+          para interfaces intuitivas e responsivas.
+        </p>
         <button>
           <a href="https://github.com/Caiobaldudev">Github</a>
         </button>
@@ -77,6 +86,7 @@ const Section = () => (
     </section>
     <section id="projects">
       <Title text="PROJETOS" />
+      <Repo />
     </section>
   </>
 );
