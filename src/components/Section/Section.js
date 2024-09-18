@@ -14,12 +14,21 @@ const Section = () => (
         Igarapava - SP
         <br />
         <p>
-          Com ampla experiência em desenvolvimento web front-end e metodologias
-          ágeis como Scrum e Kanban, domino tecnologias essenciais como HTML5,
-          CSS3, JavaScript, React.js, SQL e NodeJs. Meu envolvimento como
-          estagiário voluntário na Lab Yes! solidificou minhas habilidades em
-          programação web e uso de bibliotecas como Styled Components e Tailwind
-          para interfaces intuitivas e responsivas.
+          Meu nome é Caio Balduino e sou um Desenvolvedor Frontend com foco em
+          React. Atualmente, tenho habilidades fortes em tecnologias como HTML,
+          CSS, JavaScript, ReactJs, NodeJs, Styled-components e Tailwind. Também
+          possuo conhecimentos básicos de Backend, incluindo SQL, bancos de
+          dados relacionais e AWS. <br />
+          <br />
+          Enquanto meu foco atual é no desenvolvimento Frontend, planejo
+          expandir minhas habilidades para Full Stack com o tempo, especialmente
+          se eu tiver o suporte e as oportunidades de desenvolvimento fornecidas
+          por uma empresa.<br/><br/> Tenho uma experiência sólida de um projeto voluntário
+          na Lab Yes!, onde construí redes valiosas, aprofundei meu entendimento
+          sobre metodologias ágeis e aprimorei minhas habilidades de trabalho em
+          equipe e comunicação. Também participei de reuniões e enfrentei
+          desafios técnicos, incluindo o desenvolvimento de um design responsivo
+          usando Figma, fortalecendo ainda mais minhas habilidades.
         </p>
         <button>
           <a href="https://github.com/Caiobaldudev">Github</a>
