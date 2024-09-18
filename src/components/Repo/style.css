@@ -70,7 +70,7 @@
   line-height: 1.2;
 }
 
-.buttonLink {
+.contentCard .buttonLink {
   width: 100%;
   cursor: pointer;
   padding: 1rem 5rem;
@@ -84,6 +84,6 @@
   border-radius: 4px;
 }
 
-.buttonLink:hover {
+.contentCard .buttonLink:hover {
   background-color: #221f86;
 }
