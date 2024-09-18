@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# Caio Balduino - Portfólio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é o repositório do meu portfólio pessoal, onde apresento minhas experiências, habilidades e projetos realizados até o momento. O portfólio é uma aplicação desenvolvida em React, com foco na exibição de minha trajetória como desenvolvedor Frontend.
 
-## Available Scripts
+## Sobre Mim
 
-In the project directory, you can run:
+Sou **Caio Balduino**, Desenvolvedor Frontend com foco em **ReactJs** e conhecimentos em **UI/UX Design**. Atualmente, estou localizado em **Igarapava - SP** e busco aprimorar minhas habilidades no desenvolvimento web, com o objetivo de expandir futuramente para o desenvolvimento **Full Stack**.
 
-### `npm start`
+- **Habilidades Técnicas:**
+  - **Frontend:** ReactJs, HTML, CSS, JavaScript, Tailwind, Bootstrap, Styled-components
+  - **Backend:** Node.js, SQL, AWS
+  - **Ferramentas de Design:** Figma (UI/UX)
+  - **Metodologias:** Scrum, Kanban
+  - **Outras Habilidades:** Inglês intermediário, Jira, Excel
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Seções do Portfólio
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 1. Sobre Mim
+Uma breve apresentação sobre quem eu sou, minha localização e meu foco de desenvolvimento.
 
-### `npm test`
+### 2. Experiência
+Uma lista das minhas principais experiências profissionais e projetos voluntários, incluindo:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Americanas S.A** (Multitarefas - Dez/2021 a Mai/2022)
+- **PoupaTempo** (Multitarefas - Jul/2022 a Out/2022)
+- **LAB YES!** (Desenvolvedor Web - Voluntário - Jun/2023 a Jun/2024)
 
-### `npm run build`
+### 3. Habilidades
+Uma seção destacando minhas principais competências técnicas e ferramentas com as quais trabalho, como **ReactJs**, **Figma**, **Node.js**, **Tailwind**, entre outras.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 4. Projetos
+Integração com a **API do GitHub** para listar meus repositórios públicos, com detalhes sobre cada projeto.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Projetos Realizados
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Desenvolvimento de landing pages responsivas utilizando React e Vite
+- Integração de estilos utilizando **Styled-components** e **Tailwind**
+- Gerenciamento de projetos e práticas ágeis com **Scrum** e **Kanban**
