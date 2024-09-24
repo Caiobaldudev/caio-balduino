@@ -26,12 +26,48 @@ header {
 
 .navbar ul li a {
   font-size: 3.6rem;
-  letter-spacing: .3rem;
-
+  letter-spacing: 0.3rem;
 }
 
 .profile img {
   max-width: 250px;
   border-radius: 100%;
   border: 6px solid rgba(161, 214, 255, 0.3);
+}
+
+@media (max-width: 768px) {
+  header {
+    padding: 1rem;
+    background-color: #0b1a3d;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: auto;
+  }
+  body {
+    margin-top: 12rem;
+  }
+  .navbar {
+    flex-direction: row;
+    gap: 3rem;
+  }
+
+  .navbar li {
+    margin: 0;
+    font-size: 1rem;
+  }
+
+  .navbar ul {
+    display: flex;
+    gap: 1.8rem;
+  }
+
+  .navbar ul li a {
+    font-size: 2.4rem;
+    letter-spacing: 0rem;
+  }
+
+  .profile img {
+    max-width: 100px;
+  }
 }
