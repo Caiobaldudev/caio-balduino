@@ -21,11 +21,10 @@ header {
 
 .navbar li {
   margin: 1rem 0;
-  font-size: 1.5rem;
 }
 
 .navbar ul li a {
-  font-size: 3.6rem;
+  font-size: 2.6rem;
   letter-spacing: 0.3rem;
 }
 
@@ -48,26 +47,29 @@ header {
     margin-top: 12rem;
   }
   .navbar {
+    justify-content: space-between;
     flex-direction: row;
-    gap: 3rem;
+    gap: 1rem;
   }
 
   .navbar li {
     margin: 0;
-    font-size: 1rem;
   }
 
   .navbar ul {
     display: flex;
-    gap: 1.8rem;
+    flex-wrap: wrap;
+    gap: 2rem;
   }
 
   .navbar ul li a {
-    font-size: 2.4rem;
+    font-size: 1.8rem;
     letter-spacing: 0rem;
   }
 
   .profile img {
-    max-width: 100px;
+    max-width: 65px;
+    border: 1px solid rgba(161, 214, 255, 0.3);
   }
+
 }
