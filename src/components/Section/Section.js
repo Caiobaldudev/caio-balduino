@@ -64,6 +64,15 @@ const Section = () => (
         </div>
       </div>
     </section>
+    <section id="graduate">
+      <Title text="Formação" />
+      <Card
+        subTitle="Análise e Desenvolvimento de Sistemas"
+        HeadingT="Uniube - Universidade de Uberaba"
+        date="Outubro 2022 - Maio 2025"
+        info=" Programação Orientada a Objetos (POO), desenvolvimento web e redes de computadores. linguagens como Java, HTML5, CSS3 e JavaScript, Estrutura de dados aliado ao conhecimento em bancos de dados Oracle e SQLite, me preparando para enfrentar desafios no desenvolvimento de software, a aplicação de metodologias ágeis e o uso de BPMN para gerenciamento de processos de negócios complementam minha formação. Tive contato com as seguintes plataformas: NetAcad (Cisco Networking Academy) aprendendo sobre internet das coisas, rede de internet e Oracle aprendendo sobre diferentes tipos de Banco de Dados mas com foco no tipo Relacional e outro bimestre aprendendo sobre pesquisa em Banco de dados (pesquisa, união, junção entre outros...)"
+      />
+    </section>
     <section id="xp">
       <Title text="Experiência" />
       <Card
