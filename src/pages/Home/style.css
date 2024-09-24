@@ -10,3 +10,12 @@ main {
   flex-grow: 1; 
   overflow-y: auto;
 }
+
+@media (max-width: 768px) {
+  main {
+    width: 100%;
+    padding: 0;
+    flex-grow: 0;
+    overflow-y: auto;
+  }
+}
